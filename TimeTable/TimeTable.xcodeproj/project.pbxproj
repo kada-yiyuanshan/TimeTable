@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		132A487717C453F700E50155 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A487517C453F700E50155 /* CustomCell.m */; };
+		132A487817C453F700E50155 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132A487617C453F700E50155 /* CustomCell.xib */; };
+		132A488417C46A5800E50155 /* MoreInFoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A488217C46A5800E50155 /* MoreInFoViewController.m */; };
+		132A488517C46A5800E50155 /* MoreInFoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132A488317C46A5800E50155 /* MoreInFoViewController.xib */; };
+		1341901917C5B5AE007750C8 /* MoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1341901717C5B5AE007750C8 /* MoreCell.m */; };
+		1341901A17C5B5AE007750C8 /* MoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1341901817C5B5AE007750C8 /* MoreCell.xib */; };
+		1341903417C5E0C9007750C8 /* DataBaseBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 1341902F17C5E0C9007750C8 /* DataBaseBean.m */; };
+		1341903517C5E0C9007750C8 /* HelpDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1341903217C5E0C9007750C8 /* HelpDataBase.m */; };
+		1341903817C5E122007750C8 /* TimeBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 1341903717C5E122007750C8 /* TimeBean.m */; };
+		1341904217C5F3BC007750C8 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1341904117C5F3BC007750C8 /* libsqlite3.0.dylib */; };
+		13DAB1C317C3206400720237 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DAB1C217C3206400720237 /* UIKit.framework */; };
+		13DAB1C517C3206400720237 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DAB1C417C3206400720237 /* Foundation.framework */; };
+		13DAB1C717C3206400720237 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DAB1C617C3206400720237 /* CoreGraphics.framework */; };
+		13DAB1CD17C3206400720237 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13DAB1CB17C3206400720237 /* InfoPlist.strings */; };
+		13DAB1CF17C3206400720237 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DAB1CE17C3206400720237 /* main.m */; };
+		13DAB1D317C3206400720237 /* TimeTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DAB1D217C3206400720237 /* TimeTableAppDelegate.m */; };
+		13DAB1D517C3206400720237 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DAB1D417C3206400720237 /* Default.png */; };
+		13DAB1D717C3206400720237 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DAB1D617C3206400720237 /* Default@2x.png */; };
+		13DAB1D917C3206400720237 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DAB1D817C3206400720237 /* Default-568h@2x.png */; };
+		13DAB1DC17C3206400720237 /* TimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DAB1DB17C3206400720237 /* TimeTableViewController.m */; };
+		13DAB1DF17C3206400720237 /* TimeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13DAB1DD17C3206400720237 /* TimeTableViewController.xib */; };
+		13DAB1F117C33BA700720237 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DAB1EF17C33BA700720237 /* SidebarViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		13DAB1F217C33BA700720237 /* SidebarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13DAB1F017C33BA700720237 /* SidebarViewController.xib */; };
+		13DAB1F617C33C6C00720237 /* TimeDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DAB1F417C33C6C00720237 /* TimeDateViewController.m */; };
+		13DAB1F717C33C6C00720237 /* TimeDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13DAB1F517C33C6C00720237 /* TimeDateViewController.xib */; };
+		13DAB1F917C3678500720237 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DAB1F817C3678500720237 /* QuartzCore.framework */; };
+		13E7311117CEE89F00350D26 /* dialog_button_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E7310F17CEE89F00350D26 /* dialog_button_active.png */; };
+		13E7311217CEE89F00350D26 /* dialog_button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E7311017CEE89F00350D26 /* dialog_button_normal.png */; };
+		13E7313717CF454F00350D26 /* ArchivingData.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E7313617CF454F00350D26 /* ArchivingData.m */; };
+		13FC927817C7105B008E2B65 /* AddInFoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FC927617C7105B008E2B65 /* AddInFoViewController.m */; };
+		13FC927917C7105B008E2B65 /* AddInFoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13FC927717C7105B008E2B65 /* AddInFoViewController.xib */; };
+		13FC928417C72417008E2B65 /* CourseTable.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 13FC928317C72417008E2B65 /* CourseTable.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		132A487417C453F700E50155 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		132A487517C453F700E50155 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		132A487617C453F700E50155 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		132A488117C46A5800E50155 /* MoreInFoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreInFoViewController.h; sourceTree = "<group>"; };
+		132A488217C46A5800E50155 /* MoreInFoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreInFoViewController.m; sourceTree = "<group>"; };
+		132A488317C46A5800E50155 /* MoreInFoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreInFoViewController.xib; sourceTree = "<group>"; };
+		1341901617C5B5AE007750C8 /* MoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreCell.h; sourceTree = "<group>"; };
+		1341901717C5B5AE007750C8 /* MoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreCell.m; sourceTree = "<group>"; };
+		1341901817C5B5AE007750C8 /* MoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreCell.xib; sourceTree = "<group>"; };
+		1341902E17C5E0C9007750C8 /* DataBaseBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseBean.h; sourceTree = "<group>"; };
+		1341902F17C5E0C9007750C8 /* DataBaseBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseBean.m; sourceTree = "<group>"; };
+		1341903117C5E0C9007750C8 /* HelpDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpDataBase.h; sourceTree = "<group>"; };
+		1341903217C5E0C9007750C8 /* HelpDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpDataBase.m; sourceTree = "<group>"; };
+		1341903617C5E122007750C8 /* TimeBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeBean.h; sourceTree = "<group>"; };
+		1341903717C5E122007750C8 /* TimeBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeBean.m; sourceTree = "<group>"; };
+		1341904117C5F3BC007750C8 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		13DAB1BE17C3206400720237 /* TimeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13DAB1C217C3206400720237 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13DAB1C417C3206400720237 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13DAB1C617C3206400720237 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13DAB1CA17C3206400720237 /* TimeTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeTable-Info.plist"; sourceTree = "<group>"; };
+		13DAB1CC17C3206400720237 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13DAB1CE17C3206400720237 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13DAB1D017C3206400720237 /* TimeTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeTable-Prefix.pch"; sourceTree = "<group>"; };
+		13DAB1D117C3206400720237 /* TimeTableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeTableAppDelegate.h; sourceTree = "<group>"; };
+		13DAB1D217C3206400720237 /* TimeTableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTableAppDelegate.m; sourceTree = "<group>"; };
+		13DAB1D417C3206400720237 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		13DAB1D617C3206400720237 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		13DAB1D817C3206400720237 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		13DAB1DA17C3206400720237 /* TimeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeTableViewController.h; sourceTree = "<group>"; };
+		13DAB1DB17C3206400720237 /* TimeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTableViewController.m; sourceTree = "<group>"; };
+		13DAB1DE17C3206400720237 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TimeTableViewController.xib; sourceTree = "<group>"; };
+		13DAB1ED17C33BA700720237 /* SideBarSelectedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarSelectedDelegate.h; sourceTree = "<group>"; };
+		13DAB1EE17C33BA700720237 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		13DAB1EF17C33BA700720237 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		13DAB1F017C33BA700720237 /* SidebarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SidebarViewController.xib; sourceTree = "<group>"; };
+		13DAB1F317C33C6C00720237 /* TimeDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeDateViewController.h; sourceTree = "<group>"; };
+		13DAB1F417C33C6C00720237 /* TimeDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeDateViewController.m; sourceTree = "<group>"; };
+		13DAB1F517C33C6C00720237 /* TimeDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeDateViewController.xib; sourceTree = "<group>"; };
+		13DAB1F817C3678500720237 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		13E7310F17CEE89F00350D26 /* dialog_button_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dialog_button_active.png; path = TimeTable/dialog_button_active.png; sourceTree = "<group>"; };
+		13E7311017CEE89F00350D26 /* dialog_button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dialog_button_normal.png; path = TimeTable/dialog_button_normal.png; sourceTree = "<group>"; };
+		13E7313517CF454F00350D26 /* ArchivingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchivingData.h; sourceTree = "<group>"; };
+		13E7313617CF454F00350D26 /* ArchivingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchivingData.m; sourceTree = "<group>"; };
+		13FC927517C7105B008E2B65 /* AddInFoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddInFoViewController.h; sourceTree = "<group>"; };
+		13FC927617C7105B008E2B65 /* AddInFoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddInFoViewController.m; sourceTree = "<group>"; };
+		13FC927717C7105B008E2B65 /* AddInFoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddInFoViewController.xib; sourceTree = "<group>"; };
+		13FC928317C72417008E2B65 /* CourseTable.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CourseTable.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13DAB1BB17C3206400720237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1341904217C5F3BC007750C8 /* libsqlite3.0.dylib in Frameworks */,
+				13DAB1F917C3678500720237 /* QuartzCore.framework in Frameworks */,
+				13DAB1C317C3206400720237 /* UIKit.framework in Frameworks */,
+				13DAB1C517C3206400720237 /* Foundation.framework in Frameworks */,
+				13DAB1C717C3206400720237 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1341902B17C5E0C9007750C8 /* Bean */ = {
+			isa = PBXGroup;
+			children = (
+				13E7313517CF454F00350D26 /* ArchivingData.h */,
+				13E7313617CF454F00350D26 /* ArchivingData.m */,
+				1341902E17C5E0C9007750C8 /* DataBaseBean.h */,
+				1341902F17C5E0C9007750C8 /* DataBaseBean.m */,
+				1341903617C5E122007750C8 /* TimeBean.h */,
+				1341903717C5E122007750C8 /* TimeBean.m */,
+			);
+			name = Bean;
+			path = TimeTable/Bean;
+			sourceTree = "<group>";
+		};
+		1341903017C5E0C9007750C8 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				1341903117C5E0C9007750C8 /* HelpDataBase.h */,
+				1341903217C5E0C9007750C8 /* HelpDataBase.m */,
+			);
+			name = DataBase;
+			path = TimeTable/DataBase;
+			sourceTree = "<group>";
+		};
+		13DAB1B317C3206400720237 = {
+			isa = PBXGroup;
+			children = (
+				13E7310F17CEE89F00350D26 /* dialog_button_active.png */,
+				13E7311017CEE89F00350D26 /* dialog_button_normal.png */,
+				1341902B17C5E0C9007750C8 /* Bean */,
+				1341903017C5E0C9007750C8 /* DataBase */,
+				13DAB1EC17C33BA700720237 /* Sidebar */,
+				13DAB1C817C3206400720237 /* TimeTable */,
+				13DAB1C117C3206400720237 /* Frameworks */,
+				13DAB1BF17C3206400720237 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13DAB1BF17C3206400720237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13DAB1BE17C3206400720237 /* TimeTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13DAB1C117C3206400720237 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13FC928317C72417008E2B65 /* CourseTable.sqlite */,
+				1341904117C5F3BC007750C8 /* libsqlite3.0.dylib */,
+				13DAB1F817C3678500720237 /* QuartzCore.framework */,
+				13DAB1C217C3206400720237 /* UIKit.framework */,
+				13DAB1C417C3206400720237 /* Foundation.framework */,
+				13DAB1C617C3206400720237 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13DAB1C817C3206400720237 /* TimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				13DAB1D117C3206400720237 /* TimeTableAppDelegate.h */,
+				13DAB1D217C3206400720237 /* TimeTableAppDelegate.m */,
+				13DAB1DA17C3206400720237 /* TimeTableViewController.h */,
+				13DAB1DB17C3206400720237 /* TimeTableViewController.m */,
+				13DAB1DD17C3206400720237 /* TimeTableViewController.xib */,
+				13DAB1F317C33C6C00720237 /* TimeDateViewController.h */,
+				13DAB1F417C33C6C00720237 /* TimeDateViewController.m */,
+				13DAB1F517C33C6C00720237 /* TimeDateViewController.xib */,
+				132A488117C46A5800E50155 /* MoreInFoViewController.h */,
+				132A488217C46A5800E50155 /* MoreInFoViewController.m */,
+				132A488317C46A5800E50155 /* MoreInFoViewController.xib */,
+				13FC927517C7105B008E2B65 /* AddInFoViewController.h */,
+				13FC927617C7105B008E2B65 /* AddInFoViewController.m */,
+				13FC927717C7105B008E2B65 /* AddInFoViewController.xib */,
+				1341901617C5B5AE007750C8 /* MoreCell.h */,
+				1341901717C5B5AE007750C8 /* MoreCell.m */,
+				1341901817C5B5AE007750C8 /* MoreCell.xib */,
+				132A487417C453F700E50155 /* CustomCell.h */,
+				132A487517C453F700E50155 /* CustomCell.m */,
+				132A487617C453F700E50155 /* CustomCell.xib */,
+				13DAB1C917C3206400720237 /* Supporting Files */,
+			);
+			path = TimeTable;
+			sourceTree = "<group>";
+		};
+		13DAB1C917C3206400720237 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13DAB1CA17C3206400720237 /* TimeTable-Info.plist */,
+				13DAB1CB17C3206400720237 /* InfoPlist.strings */,
+				13DAB1CE17C3206400720237 /* main.m */,
+				13DAB1D017C3206400720237 /* TimeTable-Prefix.pch */,
+				13DAB1D417C3206400720237 /* Default.png */,
+				13DAB1D617C3206400720237 /* Default@2x.png */,
+				13DAB1D817C3206400720237 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13DAB1EC17C33BA700720237 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				13DAB1ED17C33BA700720237 /* SideBarSelectedDelegate.h */,
+				13DAB1EE17C33BA700720237 /* SidebarViewController.h */,
+				13DAB1EF17C33BA700720237 /* SidebarViewController.m */,
+				13DAB1F017C33BA700720237 /* SidebarViewController.xib */,
+			);
+			name = Sidebar;
+			path = TimeTable/Sidebar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13DAB1BD17C3206400720237 /* TimeTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13DAB1E517C3206400720237 /* Build configuration list for PBXNativeTarget "TimeTable" */;
+			buildPhases = (
+				13DAB1BA17C3206400720237 /* Sources */,
+				13DAB1BB17C3206400720237 /* Frameworks */,
+				13DAB1BC17C3206400720237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeTable;
+			productName = TimeTable;
+			productReference = 13DAB1BE17C3206400720237 /* TimeTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13DAB1B517C3206400720237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TimeTable;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = kada;
+			};
+			buildConfigurationList = 13DAB1B817C3206400720237 /* Build configuration list for PBXProject "TimeTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13DAB1B317C3206400720237;
+			productRefGroup = 13DAB1BF17C3206400720237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13DAB1BD17C3206400720237 /* TimeTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13DAB1BC17C3206400720237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DAB1CD17C3206400720237 /* InfoPlist.strings in Resources */,
+				13DAB1D517C3206400720237 /* Default.png in Resources */,
+				13DAB1D717C3206400720237 /* Default@2x.png in Resources */,
+				13DAB1D917C3206400720237 /* Default-568h@2x.png in Resources */,
+				13DAB1DF17C3206400720237 /* TimeTableViewController.xib in Resources */,
+				13DAB1F217C33BA700720237 /* SidebarViewController.xib in Resources */,
+				13DAB1F717C33C6C00720237 /* TimeDateViewController.xib in Resources */,
+				132A487817C453F700E50155 /* CustomCell.xib in Resources */,
+				132A488517C46A5800E50155 /* MoreInFoViewController.xib in Resources */,
+				1341901A17C5B5AE007750C8 /* MoreCell.xib in Resources */,
+				13FC927917C7105B008E2B65 /* AddInFoViewController.xib in Resources */,
+				13FC928417C72417008E2B65 /* CourseTable.sqlite in Resources */,
+				13E7311117CEE89F00350D26 /* dialog_button_active.png in Resources */,
+				13E7311217CEE89F00350D26 /* dialog_button_normal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13DAB1BA17C3206400720237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DAB1CF17C3206400720237 /* main.m in Sources */,
+				13DAB1D317C3206400720237 /* TimeTableAppDelegate.m in Sources */,
+				13DAB1DC17C3206400720237 /* TimeTableViewController.m in Sources */,
+				13DAB1F117C33BA700720237 /* SidebarViewController.m in Sources */,
+				13DAB1F617C33C6C00720237 /* TimeDateViewController.m in Sources */,
+				132A487717C453F700E50155 /* CustomCell.m in Sources */,
+				132A488417C46A5800E50155 /* MoreInFoViewController.m in Sources */,
+				1341901917C5B5AE007750C8 /* MoreCell.m in Sources */,
+				1341903417C5E0C9007750C8 /* DataBaseBean.m in Sources */,
+				1341903517C5E0C9007750C8 /* HelpDataBase.m in Sources */,
+				1341903817C5E122007750C8 /* TimeBean.m in Sources */,
+				13FC927817C7105B008E2B65 /* AddInFoViewController.m in Sources */,
+				13E7313717CF454F00350D26 /* ArchivingData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13DAB1CB17C3206400720237 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13DAB1CC17C3206400720237 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13DAB1DD17C3206400720237 /* TimeTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13DAB1DE17C3206400720237 /* en */,
+			);
+			name = TimeTableViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13DAB1E317C3206400720237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13DAB1E417C3206400720237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13DAB1E617C3206400720237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTable/TimeTable-Prefix.pch";
+				INFOPLIST_FILE = "TimeTable/TimeTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13DAB1E717C3206400720237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTable/TimeTable-Prefix.pch";
+				INFOPLIST_FILE = "TimeTable/TimeTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13DAB1B817C3206400720237 /* Build configuration list for PBXProject "TimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DAB1E317C3206400720237 /* Debug */,
+				13DAB1E417C3206400720237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13DAB1E517C3206400720237 /* Build configuration list for PBXNativeTarget "TimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DAB1E617C3206400720237 /* Debug */,
+				13DAB1E717C3206400720237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13DAB1B517C3206400720237 /* Project object */;
+}
